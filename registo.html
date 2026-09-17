@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registo — EMIGRANTE MODE</title>
+<meta name="description" content="Diário de construção do Emigrante Mode: o que foi feito, quando, e o que ficou por resolver.">
+<meta name="theme-color" content="#0B0A09">
+<link rel="icon" href="assets/img/logo.svg">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="progress" role="presentation"><span class="progress__bar" id="progressBar"></span></div>
+
+<header class="topbar">
+  <a class="topbar__mark" href="index.html">
+    <svg class="topbar__logo" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+      <path d="M4 56 H60" stroke="currentColor" stroke-width="2" opacity="0.35"/>
+      <path d="M12 48 H52" stroke="currentColor" stroke-width="2" opacity="0.2"/>
+      <path d="M32 6 L58 54 H6 Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M32 6 L43 26 H21 Z" fill="#C6431C"/>
+    </svg>
+    EMIGRANTE&nbsp;MODE
+  </a>
+  <nav class="topbar__nav" aria-label="Secções">
+    <a href="index.html#problema">Problema</a>
+    <a href="index.html#sistema">Sistema</a>
+    <a href="index.html#ciclo">Ciclo</a>
+    <a href="index.html#construcao">Construção</a>
+    <a href="registo.html" aria-current="page">Registo</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="shell">
+      <p class="mono reveal">Diário de construção</p>
+      <h1 class="page-hero__title reveal">REGISTO</h1>
+      <p class="page-hero__lede reveal">
+        O que foi feito, quando foi feito e o que ficou por resolver. Sem retoques:
+        uma versão só entra aqui depois de existir.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <ol class="entries">
+
+        <!-- ═══ MODELO DE ENTRADA — copiar este bloco para registar uma nova versão ═══
+        <li class="entry reveal">
+          <div class="entry__meta">
+            <span class="mono entry__version">v0.0</span>
+            <time class="mono" datetime="AAAA-MM-DD">DD MÊS AAAA</time>
+          </div>
+          <div>
+            <h2 class="entry__title">Título da entrada</h2>
+            <div class="entry__body">
+              <p>O que mudou e porquê.</p>
+              <ul class="entry__list">
+                <li>Decisão ou alteração concreta.</li>
+              </ul>
+              <figure class="media">
+                <img src="assets/img/registo/FICHEIRO.jpg" alt="Descrição da imagem" loading="lazy" width="1280" height="800">
+                <figcaption>Legenda</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+        ═══════════════════════════════════════════════════════════════════════ -->
+
+        <li class="entry reveal">
+          <div class="entry__meta">
+            <span class="mono entry__version">v0.2</span>
+            <time class="mono" datetime="2026-09-17">17 set 2026</time>
+          </div>
+          <div>
+            <h2 class="entry__title">Identidade e registo</h2>
+            <div class="entry__body">
+              <p>
+                A marca passou a ter forma própria e o projeto passou a ter onde documentar-se
+                a si mesmo — que é, no fundo, o quarto pilar aplicado ao próprio site.
+              </p>
+              <ul class="entry__list">
+                <li>Símbolo em SVG (silhueta vulcânica e estratos), usado no topo e como ícone do separador.</li>
+                <li>Estrutura para imagens em <code>assets/img/</code>, com convenção de nomes documentada.</li>
+                <li>Esta página de registo, com modelo de entrada pronto a copiar.</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="entry reveal">
+          <div class="entry__meta">
+            <span class="mono entry__version">v0.1</span>
+            <time class="mono" datetime="2026-09-17">17 set 2026</time>
+          </div>
+          <div>
+            <h2 class="entry__title">Landing funcional</h2>
+            <div class="entry__body">
+              <p>
+                Primeira versão pública do conceito: hero, seis secções e rodapé,
+                em HTML, CSS e JavaScript puro — sem frameworks e sem pedidos externos.
+              </p>
+              <ul class="entry__list">
+                <li>Cinco problemas encontrados na verificação em navegador e corrigidos antes do commit.</li>
+                <li>Verificado a 1440×900, 1280×720 e 390×844: sem erros de consola nem overflow horizontal.</li>
+                <li>Por resolver: o CTA final ainda não tem destino.</li>
+              </ul>
+              <figure class="media">
+                <img src="assets/img/registo/2026-09-17-landing-v01.jpg"
+                     alt="Hero da landing page Emigrante Mode sobre fundo escuro, com o título em tipografia serifada grande"
+                     loading="lazy" width="1280" height="800">
+                <figcaption>v0.1 — hero, 1280×800</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+      </ol>
+
+      <a class="backlink mono" href="index.html">&#8592; Voltar ao processo</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="shell footer__inner">
+    <span class="mono">EMIGRANTE MODE</span>
+    <span class="mono">Construir capacidade antes de procurar reconhecimento.</span>
+    <span class="mono">© <span id="year">2026</span></span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
