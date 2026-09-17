@@ -86,7 +86,35 @@
     history.replaceState(null, '', id);
   });
 
-  /* ---------- 4. Ano no rodapé ---------- */
+  /* ---------- 4. Abas — Explorar ---------- */
+  var tabBtns = Array.prototype.slice.call(document.querySelectorAll('.tab__btn'));
+  var tabPanels = Array.prototype.slice.call(document.querySelectorAll('.tab__panel'));
+
+  tabBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      // 1. Remover estado ativo de todos os botões
+      tabBtns.forEach(function (b) {
+        b.classList.remove('tab__btn--active');
+        b.setAttribute('aria-selected', 'false');
+      });
+
+      // 2. Remover estado ativo de todos os painéis
+      tabPanels.forEach(function (p) {
+        p.classList.remove('tab__panel--active');
+      });
+
+      // 3. Ativar o botão clicado
+      btn.classList.add('tab__btn--active');
+      btn.setAttribute('aria-selected', 'true');
+
+      // 4. Ativar o painel correspondente (via data-tab)
+      var target = btn.getAttribute('data-tab');
+      var panel = document.getElementById('panel-' + target);
+      if (panel) panel.classList.add('tab__panel--active');
+    });
+  });
+
+  /* ---------- 5. Ano no rodapé ---------- */
   var year = document.getElementById('year');
   if (year) year.textContent = new Date().getFullYear();
 })();

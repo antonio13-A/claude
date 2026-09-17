@@ -85,6 +85,136 @@
     </div>
   </section>
 
+  <!-- ─────────────────────────── EXPLORAR ─────────────────────────── -->
+  <section class="section explorar" aria-labelledby="t-explorar">
+    <div class="shell">
+      <div class="section__head reveal">
+        <span class="mono section__num">—</span>
+        <h2 class="section__title" id="t-explorar">Explorar</h2>
+      </div>
+
+      <!-- Botões das abas -->
+      <div class="tabs__nav reveal" role="tablist" aria-label="Explorar conteúdo">
+        <button class="tab__btn tab__btn--active"
+                role="tab"
+                aria-selected="true"
+                aria-controls="panel-sistema"
+                id="btn-sistema"
+                data-tab="sistema">
+          Sistema
+        </button>
+        <button class="tab__btn"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-projetos"
+                id="btn-projetos"
+                data-tab="projetos">
+          Projetos
+        </button>
+        <button class="tab__btn"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-episodios"
+                id="btn-episodios"
+                data-tab="episodios">
+          Episódios
+        </button>
+      </div>
+
+      <!-- Painel: Sistema -->
+      <div class="tab__panel tab__panel--active"
+           id="panel-sistema"
+           role="tabpanel"
+           aria-labelledby="btn-sistema">
+        <p class="tabs__intro">Quatro pilares interdependentes. Nenhum funciona isolado.</p>
+        <ol class="tabs__list">
+          <li class="tabs__item">
+            <span class="mono tabs__index">P.01</span>
+            <div>
+              <strong class="tabs__name">Corpo</strong>
+              <p class="tabs__text">Base física. Treino, sono e energia como fundação de tudo o resto.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index">P.02</span>
+            <div>
+              <strong class="tabs__name">Conhecimento</strong>
+              <p class="tabs__text">Estudo dirigido. Ler e testar até mudar uma decisão real.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index">P.03</span>
+            <div>
+              <strong class="tabs__name">Execução</strong>
+              <p class="tabs__text">Trabalho aplicado em projetos reais. Versões imperfeitas publicadas.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index">P.04</span>
+            <div>
+              <strong class="tabs__name">Documentação</strong>
+              <p class="tabs__text">Registo do que foi feito, tentado e falhado. Análise possível.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <!-- Painel: Projetos -->
+      <div class="tab__panel"
+           id="panel-projetos"
+           role="tabpanel"
+           aria-labelledby="btn-projetos">
+        <p class="tabs__intro">Frentes de trabalho abertas neste momento.</p>
+        <ol class="tabs__list">
+          <li class="tabs__item">
+            <span class="mono tabs__index tabs__index--status">Em construção</span>
+            <div>
+              <strong class="tabs__name">Treino</strong>
+              <p class="tabs__text">Rotina física estruturada como base de energia do sistema.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index tabs__index--status">Em construção</span>
+            <div>
+              <strong class="tabs__name">TonyCast</strong>
+              <p class="tabs__text">Registo em áudio sobre o processo e o que dele se aprende.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index tabs__index--status">Em construção</span>
+            <div>
+              <strong class="tabs__name">Marketing Lab</strong>
+              <p class="tabs__text">Testes de comunicação: hipótese, execução, leitura do resultado.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index tabs__index--status">Em construção</span>
+            <div>
+              <strong class="tabs__name">TonyPictury Labs</strong>
+              <p class="tabs__text">Trabalho visual e criativo — imagem, vídeo, direção.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <!-- Painel: Episódios -->
+      <div class="tab__panel"
+           id="panel-episodios"
+           role="tabpanel"
+           aria-labelledby="btn-episodios">
+        <p class="tabs__intro">TonyCast — em produção.</p>
+        <div class="tabs__empty">
+          <span class="mono tabs__empty-label">Em breve</span>
+          <p class="tabs__empty-text">
+            Os primeiros episódios estão a ser preparados.<br>
+            Registos em áudio sobre o processo de construção — sem guião, sem edição excessiva.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
   <!-- ─────────────────────────── 01 PROBLEMA ─────────────────────────── -->
   <section class="section" id="problema" aria-labelledby="t-problema">
     <div class="shell">
