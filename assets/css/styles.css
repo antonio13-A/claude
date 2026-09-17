@@ -181,12 +181,6 @@ p { margin: 0; }
   color: var(--ivory);
 }
 
-.topbar__glyph {
-  width: 9px; height: 9px;
-  background: var(--lava);
-  clip-path: polygon(50% 0, 100% 100%, 0 100%);
-}
-
 .topbar__nav { display: flex; gap: clamp(18px, 2.6vw, 34px); }
 
 .topbar__nav a {
@@ -580,4 +574,129 @@ p { margin: 0; }
     transition-duration: 0.01ms !important;
   }
   .js .reveal { opacity: 1; transform: none; }
+}
+
+/* 9. IDENTIDADE, MEDIA E PÁGINA DE REGISTO ------------------ */
+
+/* marca */
+.topbar__logo {
+  width: 22px;
+  height: 22px;
+  color: var(--ivory);
+  flex: none;
+}
+
+/* estado ativo na navegação entre páginas */
+.topbar__nav a[aria-current="page"] { color: var(--ember); }
+
+/* cabeçalho das páginas interiores */
+.page-hero {
+  padding-block: clamp(140px, 20vh, 200px) clamp(40px, 6vh, 72px);
+  border-bottom: var(--rule);
+  position: relative;
+  overflow: hidden;
+}
+.page-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(50% 60% at 8% 100%, rgba(198, 67, 28, 0.16), transparent 70%);
+}
+.page-hero > .shell { position: relative; }
+
+.page-hero__title {
+  font-size: clamp(2.8rem, 9vw, 6rem);
+  letter-spacing: -0.04em;
+  margin-block: 8px 20px;
+}
+
+.page-hero__lede { max-width: 34em; color: var(--ivory-dim); }
+
+/* imagem: usada em qualquer secção, com legenda editorial */
+.media { margin: 0; }
+
+.media img {
+  width: 100%;
+  height: auto;
+  border: var(--rule);
+  background: var(--ash);
+}
+
+.media figcaption {
+  margin-top: 10px;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ivory-mute);
+}
+
+/* registo: entradas do diário de construção */
+.entries { list-style: none; margin: 0; padding: 0; }
+
+.entry {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: clamp(20px, 4vw, 56px);
+  padding-block: clamp(36px, 6vh, 72px);
+  border-bottom: var(--rule);
+}
+
+.entry__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.entry__version { color: var(--lava); }
+
+.entry__title {
+  font-size: clamp(1.6rem, 3.4vw, 2.4rem);
+  margin-bottom: 16px;
+}
+
+.entry__body { color: var(--ivory-dim); display: grid; gap: 14px; }
+
+.entry__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.entry__list li {
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid var(--stone-soft);
+  position: relative;
+}
+.entry__list li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 1.15em;
+  width: 8px; height: 2px;
+  background: var(--lava);
+}
+
+.entry .media { margin-top: 10px; }
+
+/* regresso ao índice */
+.backlink {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: clamp(40px, 6vh, 72px);
+  color: var(--ivory-dim);
+  transition: color 0.25s ease;
+}
+.backlink:hover { color: var(--ember); }
+
+@media (max-width: 720px) {
+  .entry { grid-template-columns: 1fr; gap: 14px; }
+  .entry__meta { flex-direction: row; gap: 14px; }
+}
+
+/* código citado no texto */
+code {
+  font-family: var(--mono);
+  font-size: 0.86em;
+  color: var(--ivory);
+  background: rgba(243, 238, 230, 0.06);
+  padding: 2px 6px;
 }

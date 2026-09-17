@@ -6,10 +6,16 @@ reconhecimento. HTML, CSS e JavaScript puro — sem frameworks, sem build, sem b
 ## Ficheiros
 
 ```
-index.html              estrutura e conteúdo (hero + 6 secções + rodapé)
+index.html              página principal (hero + 6 secções + rodapé)
+registo.html            diário de construção, com modelo de entrada pronto a copiar
 assets/css/styles.css   tokens de design, layout, componentes, responsivo, movimento
 assets/js/main.js       progresso de scroll, reveal no viewport, scroll suave, ano
+assets/img/             símbolo da marca e imagens — convenções em assets/img/README.md
+docs/GUIA.md            como abrir, alterar, versionar e publicar (guia passo a passo)
+vercel.json             cabeçalhos de segurança do deploy
 ```
+
+Para trabalhar no projeto (VS Code, Git, versões, deploy), segue **[docs/GUIA.md](docs/GUIA.md)**.
 
 ## Como abrir localmente
 
