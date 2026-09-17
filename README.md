@@ -38,6 +38,25 @@ python3 -m http.server 8000
 - **Links de acompanhamento**: no bloco `06 CTA FINAL`, substituir `href="#"` pelos
   URLs reais (newsletter, redes, canal).
 
+## Deploy (Vercel)
+
+O site é estático: não tem build, não tem dependências, não tem passo de compilação.
+
+1. Em [vercel.com/new](https://vercel.com/new), importar o repositório `antonio13-A/claude`.
+2. Configuração: **Framework Preset** `Other`, **Root Directory** `.`,
+   **Build Command** vazio, **Output Directory** vazio.
+3. Deploy.
+
+A partir daí:
+
+- cada push para `main` publica em produção;
+- cada pull request gera um URL de preview próprio, para rever antes de juntar.
+
+`vercel.json` define apenas cabeçalhos de segurança (`nosniff`, `Referrer-Policy`,
+`X-Frame-Options`, `Permissions-Policy`). Não define cache longo de propósito: os
+ficheiros não têm hash no nome, por isso um cache agressivo faria os visitantes
+continuarem a ver a versão antiga do CSS depois de cada alteração.
+
 ## Acessibilidade e comportamento
 
 - Funciona sem JavaScript: o conteúdo fica visível (o efeito de entrada só é aplicado com JS ativo).
