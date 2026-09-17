@@ -692,6 +692,101 @@ p { margin: 0; }
   .entry__meta { flex-direction: row; gap: 14px; }
 }
 
+/* 10. ORIENTAÇÃO — O que procuras? -------------------------------- */
+.orientation { border-bottom: var(--rule); }
+
+.orientation__title {
+  font-size: clamp(0.7rem, 1.4vw, 0.85rem);
+  font-family: var(--mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ivory-mute);
+  margin-bottom: clamp(28px, 4vh, 48px);
+}
+
+.orientation__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--stone);
+  border: var(--rule);
+}
+
+.orientation__card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: clamp(24px, 4vw, 40px);
+  background: var(--basalt);
+  text-decoration: none;
+  transition: background 0.25s ease;
+}
+
+.orientation__card:hover { background: var(--ash); }
+
+.orientation__card:hover .orientation__arrow {
+  color: var(--ember);
+  transform: translateX(5px);
+}
+
+.orientation__label {
+  font-size: 0.66rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--lava);
+}
+
+.orientation__name {
+  font-family: var(--display);
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
+  color: var(--ivory);
+  flex: 1;
+  line-height: 1.4;
+}
+
+.orientation__arrow {
+  font-family: var(--mono);
+  font-size: 1rem;
+  color: var(--ivory-mute);
+  transition: color 0.25s ease, transform 0.25s ease;
+  align-self: flex-end;
+}
+
+@media (max-width: 720px) {
+  .orientation__grid { grid-template-columns: 1fr; }
+}
+
+/* 11. SOBRE — Autor ----------------------------------------------- */
+.sobre { border-bottom: var(--rule); }
+
+.sobre__inner {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: clamp(32px, 6vw, 80px);
+  align-items: start;
+}
+
+.sobre__head { padding-top: 4px; }
+
+.sobre__name {
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  letter-spacing: -0.03em;
+  margin-top: 12px;
+}
+
+.sobre__body { display: grid; gap: 18px; }
+
+.sobre__text {
+  font-size: clamp(1rem, 1.8vw, 1.15rem);
+  line-height: 1.75;
+  color: var(--ivory-dim);
+  max-width: 40em;
+}
+
+@media (max-width: 720px) {
+  .sobre__inner { grid-template-columns: 1fr; gap: clamp(16px, 3vh, 28px); }
+}
+
 /* código citado no texto */
 code {
   font-family: var(--mono);
