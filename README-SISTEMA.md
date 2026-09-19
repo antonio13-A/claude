@@ -112,3 +112,7 @@ Ideia bruta  →  _inbox/  →  arrumar na camada certa  →  produzir (producao
 5. Marca uma retrospetiva mensal recorrente com `revisao/retrospetiva-mensal.md`.
 
 > Ver também o `README.md` na raiz para a descrição pública do repositório.
+
+## Mapa visual
+
+O mapa da arquitetura DOS está em `mapa/em-labs-dos.html` — abre no browser.
