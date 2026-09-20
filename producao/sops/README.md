@@ -68,8 +68,12 @@
 
 ## Índice de SOPs
 
-> Lista aqui os SOPs à medida que os crias.
+> Lista aqui os SOPs à medida que os crias. Ver o [Manual de Produção](../README.md) para o contexto de cada fase.
 
 | SOP | Ficheiro | Última atualização |
 |-----|----------|--------------------|
+| Como se constrói um guião | [`sop-guiao.md`](sop-guiao.md) | [preencher] |
+| Onboarding do convidado | [`sop-onboarding-convidado.md`](sop-onboarding-convidado.md) | [preencher] |
+| Parceria com cliente | [`sop-parceria-cliente.md`](sop-parceria-cliente.md) | [preencher] |
+| Distribuição multicanal / repurposing | [`sop-distribuicao-multicanal.md`](sop-distribuicao-multicanal.md) | [preencher] |
 | [preencher] | [preencher] | [preencher] |

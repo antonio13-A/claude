@@ -37,7 +37,7 @@ O sistema organiza-se em **5 camadas centrais** e **2 camadas transversais** que
 |---|--------|-------|----------------|
 | 1 | **Identidade** | `marca/` | Quem és, o que defendes, como soas. A base de tudo. |
 | 2 | **Estratégia** | `estrategia/` | Para onde vais e como decides o que fazer. |
-| 3 | **Produção** | `producao/` | Como transformas ideias em episódios e conteúdo publicado. |
+| 3 | **Produção** | `producao/` | Como transformas ideias em episódios e conteúdo publicado. Manual completo: [`producao/README.md`](producao/README.md). |
 | 4 | **Memória** | `memoria/` | O que já decidiste, arquivaste e aprendeste. O teu histórico. |
 | 5 | **Revisão** | `revisao/` | Como paras, medes e ajustas o rumo com ritmo. |
 
@@ -108,7 +108,7 @@ Ideia bruta  →  _inbox/  →  arrumar na camada certa  →  produzir (producao
 1. Preenche `marca/` — sem identidade clara, o resto oscila.
 2. Define metas em `estrategia/metas-objetivos.md`.
 3. Estabelece os teus `estrategia/pilares-conteudo.md`.
-4. Usa o `producao/pipeline-episodio.md` no próximo episódio.
+4. Abre o [`producao/README.md`](producao/README.md) (Manual de Produção) e usa a ficha-mestra e as fases no próximo episódio.
 5. Marca uma retrospetiva mensal recorrente com `revisao/retrospetiva-mensal.md`.
 
 > Ver também o `README.md` na raiz para a descrição pública do repositório.
