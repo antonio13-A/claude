@@ -103,6 +103,9 @@ Documentos prontos a copiar por cada nova produção.
 ### Canais (`canais/`)
 Canais de captação e conversão e projetos de comunicação da marca. Ver [`canais/README.md`](canais/README.md).
 
+### Automações (`automacoes/`)
+O blueprint de automações da operação: onde vivem, o que disparam e que dados cruzam, ao longo dos cinco domínios (produção, distribuição, funil, CRM/follow-up, dados & aprendizagem). Ver [`automacoes/README.md`](automacoes/README.md).
+
 ---
 
 ## Como usar (arranque rápido)

@@ -88,6 +88,7 @@
 ## Ligações
 
 - Funil do podcast: [`../templates/template-funil-podcast.md`](../templates/template-funil-podcast.md)
+- Automações do funil (captação ↔ conversão): [`../automacoes/README.md`](../automacoes/README.md)
 - Distribuição multicanal: [`../sops/sop-distribuicao-multicanal.md`](../sops/sop-distribuicao-multicanal.md)
 - Secção 15 da ficha-mestra: [`../templates/template-projeto-producao.md`](../templates/template-projeto-producao.md)
 - Fase de distribuição: [`../fases/06-distribuicao.md`](../fases/06-distribuicao.md)

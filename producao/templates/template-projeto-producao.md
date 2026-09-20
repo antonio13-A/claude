@@ -165,22 +165,24 @@
 
 ## 14. Automações
 
-> Ver [Fase 06 — Distribuição](../fases/06-distribuicao.md).
+> Ver [Fase 06 — Distribuição](../fases/06-distribuicao.md) e o [Blueprint de Automações](../automacoes/README.md) (ferramentas em [`../automacoes/mapa-ferramentas.md`](../automacoes/mapa-ferramentas.md)).
 
 - **Automações que disparam:** [preencher]
 - **Entre que canais:** [preencher]
+- **Ferramentas envolvidas:** [preencher — ver `../automacoes/mapa-ferramentas.md`]
 - **Estado:** [preencher]
 
 ---
 
 ## 15. Canais de captação & conversão
 
-> Ver [`../canais/README.md`](../canais/README.md).
+> Ver [`../canais/README.md`](../canais/README.md). Automações do funil (captação e conversão) no [Blueprint de Automações — domínio C](../automacoes/README.md).
 
 - **Formulário:** [link/estado]
 - **Landing page:** [link/estado]
 - **Website:** [link/estado]
 - **Como se ligam ao funil desta produção:** [preencher]
+- **Automações de captação/conversão ativas:** [preencher — ver `../automacoes/README.md`]
 
 ---
 
