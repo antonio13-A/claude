@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EMIGRANTE MODE — Laboratório de treino, conhecimento e execução</title>
+<meta name="description" content="Um laboratório pessoal de treino, conhecimento, criação e execução. O processo é aplicado, analisado e documentado em aberto.">
+<meta name="theme-color" content="#0B0A09">
+<meta property="og:title" content="EMIGRANTE MODE">
+<meta property="og:description" content="Construir capacidade antes de procurar reconhecimento.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/logo.svg">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="progress" role="presentation"><span class="progress__bar" id="progressBar"></span></div>
+
+<header class="topbar">
+  <a class="topbar__mark" href="#top">
+    <svg class="topbar__logo" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+      <path d="M4 56 H60" stroke="currentColor" stroke-width="2" opacity="0.35"/>
+      <path d="M12 48 H52" stroke="currentColor" stroke-width="2" opacity="0.2"/>
+      <path d="M32 6 L58 54 H6 Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M32 6 L43 26 H21 Z" fill="#C6431C"/>
+    </svg>
+    EMIGRANTE&nbsp;MODE
+  </a>
+  <nav class="topbar__nav" aria-label="Secções">
+    <a href="#problema">Problema</a>
+    <a href="#sistema">Sistema</a>
+    <a href="#processo">Processo</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="registo.html">Registo</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ─────────────────────────── HERO ─────────────────────────── -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__field" aria-hidden="true"></div>
+    <div class="shell hero__inner">
+      <p class="eyebrow reveal">Projeto em construção aberta</p>
+      <h1 class="hero__title reveal" id="hero-title">EMIGRANTE<br>MODE</h1>
+      <p class="hero__claim reveal">Construir capacidade antes de procurar reconhecimento.</p>
+      <p class="hero__lede reveal">
+        Um laboratório pessoal de treino, conhecimento, criação e execução,
+        onde o processo é aplicado, analisado e documentado.
+      </p>
+      <div class="actions reveal">
+        <a class="btn btn--primary" href="#sistema">Explorar o sistema</a>
+        <a class="btn btn--ghost" href="#sobre">Conhecer o projeto</a>
+      </div>
+    </div>
+    <div class="hero__foot shell">
+      <span class="mono">TREINO • CONHECIMENTO • EXECUÇÃO • DOCUMENTAÇÃO</span>
+      <span class="mono hero__scroll">Descer <span class="hero__arrow" aria-hidden="true">↓</span></span>
+    </div>
+  </section>
+
+  <!-- ─────────────────────── O QUE PROCURAS? ─────────────────────────── -->
+  <section class="section orientation" aria-labelledby="t-orientation">
+    <div class="shell">
+      <h2 class="orientation__title reveal" id="t-orientation">O que procuras?</h2>
+      <div class="orientation__grid">
+        <a class="orientation__card reveal" href="#sistema">
+          <span class="mono orientation__label">A filosofia</span>
+          <span class="orientation__name">O sistema e os seus pilares</span>
+          <span class="orientation__arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="orientation__card reveal" href="#processo">
+          <span class="mono orientation__label">O processo</span>
+          <span class="orientation__name">Como o ciclo funciona na prática</span>
+          <span class="orientation__arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="orientation__card reveal" href="#projetos">
+          <span class="mono orientation__label">Os projetos</span>
+          <span class="orientation__name">O que está em construção agora</span>
+          <span class="orientation__arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── EXPLORAR ─────────────────────────── -->
+  <section class="section explorar" aria-labelledby="t-explorar">
+    <div class="shell">
+      <div class="section__head reveal">
+        <span class="mono section__num">—</span>
+        <h2 class="section__title" id="t-explorar">Explorar</h2>
+      </div>
+
+      <!-- Botões das abas -->
+      <div class="tabs__nav reveal" role="tablist" aria-label="Explorar conteúdo">
+        <button class="tab__btn tab__btn--active"
+                role="tab"
+                aria-selected="true"
+                aria-controls="panel-sistema"
+                id="btn-sistema"
+                data-tab="sistema">
+          Sistema
+        </button>
+        <button class="tab__btn"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-projetos"
+                id="btn-projetos"
+                data-tab="projetos">
+          Projetos
+        </button>
+        <button class="tab__btn"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-episodios"
+                id="btn-episodios"
+                data-tab="episodios">
+          Episódios
+        </button>
+      </div>
+
+      <!-- Painel: Sistema -->
+      <div class="tab__panel tab__panel--active"
+           id="panel-sistema"
+           role="tabpanel"
+           aria-labelledby="btn-sistema">
+        <p class="tabs__intro">Quatro pilares interdependentes. Nenhum funciona isolado.</p>
+        <ol class="tabs__list">
+          <li class="tabs__item">
+            <span class="mono tabs__index">P.01</span>
+            <div>
+              <strong class="tabs__name">Corpo</strong>
+              <p class="tabs__text">Base física. Treino, sono e energia como fundação de tudo o resto.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index">P.02</span>
+            <div>
+              <strong class="tabs__name">Conhecimento</strong>
+              <p class="tabs__text">Estudo dirigido. Ler e testar até mudar uma decisão real.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index">P.03</span>
+            <div>
+              <strong class="tabs__name">Execução</strong>
+              <p class="tabs__text">Trabalho aplicado em projetos reais. Versões imperfeitas publicadas.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index">P.04</span>
+            <div>
+              <strong class="tabs__name">Documentação</strong>
+              <p class="tabs__text">Registo do que foi feito, tentado e falhado. Análise possível.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <!-- Painel: Projetos -->
+      <div class="tab__panel"
+           id="panel-projetos"
+           role="tabpanel"
+           aria-labelledby="btn-projetos">
+        <p class="tabs__intro">Frentes de trabalho abertas neste momento.</p>
+        <ol class="tabs__list">
+          <li class="tabs__item">
+            <span class="mono tabs__index tabs__index--status">Em construção</span>
+            <div>
+              <strong class="tabs__name">Treino</strong>
+              <p class="tabs__text">Rotina física estruturada como base de energia do sistema.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index tabs__index--status">Em construção</span>
+            <div>
+              <strong class="tabs__name">TonyCast</strong>
+              <p class="tabs__text">Registo em áudio sobre o processo e o que dele se aprende.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index tabs__index--status">Em construção</span>
+            <div>
+              <strong class="tabs__name">Marketing Lab</strong>
+              <p class="tabs__text">Testes de comunicação: hipótese, execução, leitura do resultado.</p>
+            </div>
+          </li>
+          <li class="tabs__item">
+            <span class="mono tabs__index tabs__index--status">Em construção</span>
+            <div>
+              <strong class="tabs__name">TonyPictury Labs</strong>
+              <p class="tabs__text">Trabalho visual e criativo — imagem, vídeo, direção.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <!-- Painel: Episódios -->
+      <div class="tab__panel"
+           id="panel-episodios"
+           role="tabpanel"
+           aria-labelledby="btn-episodios">
+        <p class="tabs__intro">TonyCast — em produção.</p>
+        <div class="tabs__empty">
+          <span class="mono tabs__empty-label">Em breve</span>
+          <p class="tabs__empty-text">
+            Os primeiros episódios estão a ser preparados.<br>
+            Registos em áudio sobre o processo de construção — sem guião, sem edição excessiva.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── 01 PROBLEMA ─────────────────────────── -->
+  <section class="section" id="problema" aria-labelledby="t-problema">
+    <div class="shell">
+      <div class="section__head reveal">
+        <span class="mono section__num">01</span>
+        <h2 class="section__title" id="t-problema">O problema</h2>
+      </div>
+      <p class="section__lede reveal">
+        A motivação é consumida. A capacidade é construída. A distância entre querer
+        e conseguir não se fecha com intensidade — fecha-se com trabalho repetido e registado.
+      </p>
+
+      <div class="compare">
+        <div class="compare__col reveal">
+          <h3 class="compare__label">Consumir motivação</h3>
+          <ul class="compare__list">
+            <li>Dura enquanto durar o entusiasmo.</li>
+            <li>Mede-se em vontade.</li>
+            <li>Depende do estado emocional do dia.</li>
+            <li>Procura o resultado antes do processo.</li>
+            <li>Produz opinião sobre o trabalho.</li>
+          </ul>
+        </div>
+        <div class="compare__col compare__col--strong reveal">
+          <h3 class="compare__label">Construir capacidade</h3>
+          <ul class="compare__list">
+            <li>Dura porque não depende de estar inspirado.</li>
+            <li>Mede-se em trabalho feito.</li>
+            <li>Depende de um sistema que se repete.</li>
+            <li>Aceita versões imperfeitas em público.</li>
+            <li>Produz prova do trabalho.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── 02 SISTEMA ─────────────────────────── -->
+  <section class="section" id="sistema" aria-labelledby="t-sistema">
+    <div class="shell">
+      <div class="section__head reveal">
+        <span class="mono section__num">02</span>
+        <h2 class="section__title" id="t-sistema">O sistema</h2>
+      </div>
+      <p class="section__lede reveal">
+        Quatro pilares. Nenhum funciona isolado: o corpo sustenta o trabalho, o conhecimento
+        dirige-o, a execução prova-o e a documentação torna-o analisável.
+      </p>
+
+      <ol class="pillars">
+        <li class="pillar reveal">
+          <span class="mono pillar__index">P.01</span>
+          <h3 class="pillar__name">Corpo</h3>
+          <p class="pillar__text">
+            Base física. Treino, sono, alimentação e energia. O corpo define a quantidade
+            de trabalho que tudo o resto consegue suportar.
+          </p>
+        </li>
+        <li class="pillar reveal">
+          <span class="mono pillar__index">P.02</span>
+          <h3 class="pillar__name">Conhecimento</h3>
+          <p class="pillar__text">
+            Estudo dirigido em vez de consumo disperso. Ler, ouvir, tirar notas e testar.
+            O conhecimento só conta quando muda uma decisão.
+          </p>
+        </li>
+        <li class="pillar reveal">
+          <span class="mono pillar__index">P.03</span>
+          <h3 class="pillar__name">Execução</h3>
+          <p class="pillar__text">
+            Trabalho aplicado em projetos reais, com prazos reais. Publicar versões
+            imperfeitas é parte do método, não uma falha do método.
+          </p>
+        </li>
+        <li class="pillar reveal">
+          <span class="mono pillar__index">P.04</span>
+          <h3 class="pillar__name">Documentação</h3>
+          <p class="pillar__text">
+            Registo do que foi feito, tentado e falhado. O que não é registado não pode
+            ser analisado — e o que não é analisado repete-se.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── 03 CICLO ─────────────────────────── -->
+  <section class="section section--alt" id="processo" aria-labelledby="t-processo">
+    <div class="shell">
+      <div class="section__head reveal">
+        <span class="mono section__num">03</span>
+        <h2 class="section__title" id="t-processo">O processo</h2>
+      </div>
+      <p class="section__lede reveal">
+        O sistema não avança em linha reta. Avança em voltas: cada volta devolve
+        informação que torna a volta seguinte mais precisa.
+      </p>
+
+      <ol class="cycle">
+        <li class="cycle__step reveal">
+          <span class="cycle__node" aria-hidden="true"></span>
+          <span class="mono cycle__index">01</span>
+          <h3 class="cycle__name">Aprender</h3>
+          <p class="cycle__text">Escolher uma fonte e retirar dela uma ideia utilizável.</p>
+        </li>
+        <li class="cycle__step reveal">
+          <span class="cycle__node" aria-hidden="true"></span>
+          <span class="mono cycle__index">02</span>
+          <h3 class="cycle__name">Aplicar</h3>
+          <p class="cycle__text">Levar essa ideia a um trabalho concreto, com resultado visível.</p>
+        </li>
+        <li class="cycle__step reveal">
+          <span class="cycle__node" aria-hidden="true"></span>
+          <span class="mono cycle__index">03</span>
+          <h3 class="cycle__name">Documentar</h3>
+          <p class="cycle__text">Registar o que foi feito, as condições e o que correu mal.</p>
+        </li>
+        <li class="cycle__step reveal">
+          <span class="cycle__node" aria-hidden="true"></span>
+          <span class="mono cycle__index">04</span>
+          <h3 class="cycle__name">Analisar</h3>
+          <p class="cycle__text">Ler o registo com distância e separar causa de ruído.</p>
+        </li>
+        <li class="cycle__step reveal">
+          <span class="cycle__node" aria-hidden="true"></span>
+          <span class="mono cycle__index">05</span>
+          <h3 class="cycle__name">Melhorar</h3>
+          <p class="cycle__text">Alterar uma variável e recomeçar a volta com ela.</p>
+        </li>
+      </ol>
+      <p class="mono cycle__loop reveal"><span>&#8635;</span> A volta seguinte recomeça em 01, com mais informação.</p>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── 04 EM CONSTRUÇÃO ─────────────────────────── -->
+  <section class="section" id="projetos" aria-labelledby="t-projetos">
+    <div class="shell">
+      <div class="section__head reveal">
+        <span class="mono section__num">04</span>
+        <h2 class="section__title" id="t-projetos">Em construção</h2>
+      </div>
+      <p class="section__lede reveal">
+        Frentes de trabalho abertas. Sem números, sem promessas: apenas o que está
+        a ser construído neste momento.
+      </p>
+
+      <div class="build">
+        <article class="build__item reveal">
+          <span class="mono build__status">Em construção</span>
+          <h3 class="build__name">Treino</h3>
+          <p class="build__text">Rotina física estruturada e registada como base de energia do sistema.</p>
+        </article>
+        <article class="build__item reveal">
+          <span class="mono build__status">Em construção</span>
+          <h3 class="build__name">TonyCast</h3>
+          <p class="build__text">Formato de conversa e registo em áudio sobre o processo e o que dele se aprende.</p>
+        </article>
+        <article class="build__item reveal">
+          <span class="mono build__status">Em construção</span>
+          <h3 class="build__name">Marketing Lab</h3>
+          <p class="build__text">Laboratório de testes de comunicação: hipótese, execução, leitura do resultado.</p>
+        </article>
+        <article class="build__item reveal">
+          <span class="mono build__status">Em construção</span>
+          <h3 class="build__name">TonyPictury Labs</h3>
+          <p class="build__text">Trabalho visual e criativo — imagem, vídeo e direção — desenvolvido em projetos reais.</p>
+        </article>
+        <article class="build__item reveal">
+          <span class="mono build__status">Em construção</span>
+          <h3 class="build__name">Estudo e desenvolvimento profissional</h3>
+          <p class="build__text">Competências aplicadas ao trabalho: aprender o que é preciso para executar melhor.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── 05 MANIFESTO ─────────────────────────── -->
+  <section class="section manifesto" id="manifesto" aria-labelledby="t-manifesto">
+    <div class="shell">
+      <div class="section__head reveal">
+        <span class="mono section__num">05</span>
+        <h2 class="section__title" id="t-manifesto">Manifesto</h2>
+      </div>
+      <blockquote class="manifesto__quote reveal">
+        Não parecer preparado.<br>
+        <em>Tornar-se</em> preparado através do trabalho.
+      </blockquote>
+      <div class="manifesto__notes">
+        <p class="reveal">
+          Aparentar é rápido e não resiste ao primeiro teste. Tornar-se é lento,
+          repetitivo e resiste a tudo o resto.
+        </p>
+        <p class="reveal">
+          Por isso este projeto mostra o processo antes de mostrar o resultado:
+          o trabalho documentado é a única prova que não se imita.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── SOBRE ─────────────────────────── -->
+  <section class="section sobre" id="sobre" aria-labelledby="t-sobre">
+    <div class="shell sobre__inner">
+      <div class="sobre__head">
+        <span class="mono eyebrow reveal">Sobre</span>
+        <h2 class="sobre__name reveal" id="t-sobre">Tony Lopes</h2>
+      </div>
+      <div class="sobre__body">
+        <p class="sobre__text reveal">
+          Estou a construir sistemas de trabalho que me tornem mais capaz —
+          e a documentar esse processo em aberto.
+        </p>
+        <p class="sobre__text reveal">
+          Este projeto é o laboratório onde isso acontece.
+          Não tenho percurso a apresentar: tenho processo em curso.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── 06 CTA FINAL ─────────────────────────── -->
+  <section class="section final" id="acompanhar" aria-labelledby="t-final">
+    <div class="shell final__inner">
+      <span class="mono section__num reveal">06</span>
+      <h2 class="final__title reveal" id="t-final">Acompanha a construção.</h2>
+      <p class="final__text reveal">
+        O trabalho é publicado à medida que é feito. Sem versão final, sem estado perfeito.
+      </p>
+      <div class="actions reveal">
+        <!-- Substituir "#" pelos links reais (newsletter, Instagram, YouTube, etc.). -->
+        <a class="btn btn--primary" href="#">Acompanhar o projeto</a>
+        <a class="btn btn--ghost" href="#problema">Rever o processo</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="shell footer__inner">
+    <span class="mono">EMIGRANTE MODE</span>
+    <span class="mono">Construir capacidade antes de procurar reconhecimento.</span>
+    <span class="mono">© <span id="year">2026</span></span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
