@@ -40,12 +40,15 @@
 4. **Volta ao [Blueprint](README.md)** e, em cada automação, substitui mentalmente `[a tua ferramenta]` pela desta folha.
 
 > As sugestões da coluna recomendada **não afirmam que já usas esses produtos** — são defaults comuns para arrancar. A decisão é tua.
+>
+> Para a **vista de custo** deste mesmo stack — até onde cada função é gratuita e onde começa a pagar — vê [`custo-e-camadas.md`](custo-e-camadas.md).
 
 ---
 
 ## Ligações
 
 - Blueprint de Automações: [`README.md`](README.md)
+- Custo & camadas (grátis vs pago): [`custo-e-camadas.md`](custo-e-camadas.md)
 - CRM & follow-up: [`crm-follow-up.md`](crm-follow-up.md)
 - Ficha-mestra, secção 14: [`../templates/template-projeto-producao.md`](../templates/template-projeto-producao.md)
 - Segurança (acessos e segredos): [`../../seguranca/politica-acesso-backup.md`](../../seguranca/politica-acesso-backup.md)

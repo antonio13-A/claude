@@ -44,6 +44,8 @@ As automações não são um add-on: distribuem-se ao longo do mesmo fluxo de tr
 > **Este blueprint não assume o teu stack.** Em cada automação, a ferramenta aparece como um espaço a preencher: **`[a tua ferramenta]` (ex.: Zapier/Make · Notion/ClickUp · Gmail · um CRM · …)**. As sugestões entre parênteses são apenas defaults recomendados — troca-as pelo que já usas.
 >
 > Preenche o teu stack real em [`mapa-ferramentas.md`](mapa-ferramentas.md) uma vez. Depois, ao construíres cada automação, sabes exatamente que ferramenta liga a quê.
+>
+> E antes de pagares seja o que for: vê [`custo-e-camadas.md`](custo-e-camadas.md) — a vista de custo do mesmo stack, com **até onde cada função é gratuita e o ponto exato em que começa a pagar**. Constrói a base no gratuito; paga só quando uma operação vira gargalo.
 
 ---
 
@@ -177,6 +179,7 @@ Antes de construíres qualquer automação, passa-a por estes princípios:
 
 - Manual de Produção: [`../README.md`](../README.md)
 - Mapa de ferramentas (preenche o teu stack): [`mapa-ferramentas.md`](mapa-ferramentas.md)
+- Custo & camadas (grátis vs pago por função e operação): [`custo-e-camadas.md`](custo-e-camadas.md)
 - CRM & follow-up (detalhe): [`crm-follow-up.md`](crm-follow-up.md)
 - Ficha-mestra, secção 14 (Automações): [`../templates/template-projeto-producao.md`](../templates/template-projeto-producao.md)
 - Canais de captação & conversão: [`../canais/README.md`](../canais/README.md)
