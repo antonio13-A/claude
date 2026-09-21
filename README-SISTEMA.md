@@ -37,7 +37,7 @@ O sistema organiza-se em **5 camadas centrais** e **2 camadas transversais** que
 |---|--------|-------|----------------|
 | 1 | **Identidade** | `marca/` | Quem és, o que defendes, como soas. A base de tudo. |
 | 2 | **Estratégia** | `estrategia/` | Para onde vais e como decides o que fazer. |
-| 3 | **Produção** | `producao/` | Como transformas ideias em episódios e conteúdo publicado. Manual completo: [`producao/README.md`](producao/README.md). Blueprint de automações: [`producao/automacoes/README.md`](producao/automacoes/README.md) — inclui a vista de custo grátis-vs-pago em [`producao/automacoes/custo-e-camadas.md`](producao/automacoes/custo-e-camadas.md). |
+| 3 | **Produção** | `producao/` | Como transformas ideias em episódios e conteúdo publicado. Manual completo: [`producao/README.md`](producao/README.md). Blueprint de automações: [`producao/automacoes/README.md`](producao/automacoes/README.md) — inclui a vista de custo grátis-vs-pago em [`producao/automacoes/custo-e-camadas.md`](producao/automacoes/custo-e-camadas.md) e **O Arsenal, o manual de ferramentas por nível da marca, em [`producao/automacoes/arsenal.md`](producao/automacoes/arsenal.md)**. |
 | 4 | **Memória** | `memoria/` | O que já decidiste, arquivaste e aprendeste. O teu histórico. |
 | 5 | **Revisão** | `revisao/` | Como paras, medes e ajustas o rumo com ritmo. |
 

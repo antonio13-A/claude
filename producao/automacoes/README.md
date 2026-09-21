@@ -178,6 +178,8 @@ Antes de construíres qualquer automação, passa-a por estes princípios:
 ## Ligações
 
 - Manual de Produção: [`../README.md`](../README.md)
+- **O Arsenal — manual canónico de ferramentas por nível (Documento 04):** [`arsenal.md`](arsenal.md)
+- **O Arsenal — verificação de preços & alternativas (anexo de pesquisa):** [`arsenal-pesquisa.md`](arsenal-pesquisa.md)
 - Mapa de ferramentas (preenche o teu stack): [`mapa-ferramentas.md`](mapa-ferramentas.md)
 - Custo & camadas (grátis vs pago por função e operação): [`custo-e-camadas.md`](custo-e-camadas.md)
 - CRM & follow-up (detalhe): [`crm-follow-up.md`](crm-follow-up.md)

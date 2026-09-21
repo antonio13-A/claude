@@ -109,6 +109,7 @@ Sobe de camada (paga) quando **pelo menos um** destes gatilhos se confirmar. Um 
 
 ## Ligações
 
+- **O Arsenal (manual canónico de ferramentas por nível, específico da marca):** [`arsenal.md`](arsenal.md) — as escolhas concretas por nível N0–N4; a verificação de preços vive em [`arsenal-pesquisa.md`](arsenal-pesquisa.md).
 - Blueprint de Automações: [`README.md`](README.md)
 - Mapa de ferramentas (o teu stack real): [`mapa-ferramentas.md`](mapa-ferramentas.md)
 - CRM & follow-up (detalhe): [`crm-follow-up.md`](crm-follow-up.md)

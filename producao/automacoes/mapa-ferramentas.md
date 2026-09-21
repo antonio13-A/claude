@@ -47,6 +47,7 @@
 
 ## Ligações
 
+- **O Arsenal (manual canónico de ferramentas por nível, específico da marca):** [`arsenal.md`](arsenal.md) — a versão da marca deste stack, com escolhas concretas por nível N0–N4.
 - Blueprint de Automações: [`README.md`](README.md)
 - Custo & camadas (grátis vs pago): [`custo-e-camadas.md`](custo-e-camadas.md)
 - CRM & follow-up: [`crm-follow-up.md`](crm-follow-up.md)
