@@ -128,6 +128,10 @@ Alterações materiais face ao Documento 04 que merecem decisão registada:
 
 ---
 
+## Revisões
+
+- Revisão da stack do Ciclo 4 (aplica estes achados): [`../../revisao/revisao-stack-2026-09-21.md`](../../revisao/revisao-stack-2026-09-21.md)
+
 ## Ligações
 
 - Manual canónico (Documento 04): [`arsenal.md`](arsenal.md)

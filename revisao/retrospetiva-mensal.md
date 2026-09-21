@@ -2,6 +2,8 @@
 
 > O ritual que fecha o mês e abre o seguinte com clareza. Uma vez por mês páras, olhas para os números com honestidade, tiras lições e defines o foco seguinte. É aqui que deixas de reagir e passas a liderar. Copia este template para cada mês: `retro-[ano]-[mes].md`.
 
+> **Revisões de stack:** a última verificação de preços e decisões da stack vive em [`revisao-stack-2026-09-21.md`](revisao-stack-2026-09-21.md) — reverificar no próximo trimestre.
+
 ---
 
 ## Cabeçalho
